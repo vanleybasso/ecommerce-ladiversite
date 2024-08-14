@@ -1,0 +1,129 @@
+.carrinho-item {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrinho-imagem {
+  width: 60px;
+  max-height: 60px;
+  margin-right: 10px;
+}
+
+.info-container {
+  overflow: hidden;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-text {
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  color: #4b0a0a;
+}
+
+.preco {
+  margin-bottom: 2px;
+}
+
+.quantidade {
+  font-size: 12px;
+}
+
+.excluir-container {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.remover-texto {
+  color: #4b0a0a;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  transition: text-decoration 0.3s;
+}
+
+.remover-texto:hover {
+  text-decoration: underline;
+}
+
+.carrinho-content {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.carrinho-items-container {
+}
+
+.borda-frase {
+  border: 1px solid #4b0a0a;
+  padding: 10px;
+  background-color: #ffe6e6;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.destacado {
+  font-weight: bold;
+  color: #4b0a0a;
+  font-size: 1.2em;
+}
+
+.botoes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.botao-compre-mais {
+  background-color: #4b0a0a;
+  color: #ccac7b;
+  padding: 15px 100px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  white-space: nowrap;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao-finalizar {
+  background-color: #4b0a0a; /* Cor verde para o botão Finalizar */
+  color: #ccac7b;
+  padding: 15px 100px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  white-space: nowrap;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao-compre-mais:hover {
+  background-color: #2c0606;
+}
+
+.botao-finalizar:hover {
+  background-color: #2c0606;
+}
+
+.botoes-quantidade {
+  margin-top: 10px;
+}

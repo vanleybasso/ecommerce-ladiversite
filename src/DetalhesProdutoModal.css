@@ -1,0 +1,78 @@
+
+.detalhes-produto-modal {
+ 
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  max-width: 400px;
+  width: 80%;
+  text-align: center;
+  color: #000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #4b0a0a; 
+  border-radius: 10px; 
+  padding: 20px; 
+}
+
+.detalhes-produto-modal img {
+  max-width: 50%;
+  margin-top: 10px;
+}
+
+.detalhes-produto-modal button {
+  cursor: pointer;
+  background-color: #4b0a0a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.detalhes-produto-modal button:hover {
+  background-color: #ccac7b;
+}
+
+.detalhes-produto-modal h2 {
+  font-size: 16px; 
+  color: #4b0a0a;
+}
+
+.preco {
+  color: #4b0a0a; 
+}
+
+.fechar-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 35px;
+  cursor: pointer;
+  color: #4b0a0a;
+}
+
+.descricao {
+  margin-top: 10px;
+  font-size: 14px;
+  color: black; 
+}
+
+.descricao-titulo {
+  color: #4b0a0a; 
+  font-size: 16px;
+}
+
+
+
+
+
+.logo-modal {
+  height: 70px; 
+  margin: 10px auto; 
+  display: block;
+}
